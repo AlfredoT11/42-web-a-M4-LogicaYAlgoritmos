@@ -68,3 +68,12 @@ const operacionResta = (a, b) => {
 };
 
 operacionResta(70, 50);
+
+/*
+    1. Van a tomar cualquier ejercicio de su módulo pasado y ejecutarlo con NodeJS.
+    2. Investigar cómo leer datos de la terminal:
+        - Pedir nombre
+        - Pedir edad
+        - Preguntar si son mexicanos o no.
+        Mostrar un mensaje con la información tienen que ponerlo dentro de una función flecha.
+*/

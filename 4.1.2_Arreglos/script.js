@@ -52,3 +52,13 @@ console.log(filaDeTortillas);
     Fila - Queue
 */
 
+//        0       1         2        3           4
+// [ 'Omar', 'Paola', 'Benito', 'Diana', 'Jonathan' ]
+/*
+    Quiero que Benito se salga de la fila, y que Rosa y Tona se metan en su lugar.
+*/
+
+//                     (<valorInicialDeCambios>, <elementosAEliminar>, <valor1Agregar>, <valor2AAgregar>, ..., <valorNAAgregar>);
+filaDeTortillas.splice(2, 1, "Rosa", "Tona");
+console.log(filaDeTortillas);
+

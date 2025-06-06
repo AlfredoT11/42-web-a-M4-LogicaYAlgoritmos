@@ -77,3 +77,57 @@ operacionResta(70, 50);
         - Preguntar si son mexicanos o no.
         Mostrar un mensaje con la información tienen que ponerlo dentro de una función flecha.
 */
+
+let nombre1 = "Juan";
+let pregunta = "¿Cómo estás?";
+console.log("¡Hola " + nombre1 + "!" + pregunta); // Hola Juan
+
+// Template literals: Es una forma de crear cadenas complejas sin concatenación.
+/*
+    `` <- backticks Alt + 96
+*/
+
+let edad1 = 36;
+let mensaje = `¡Hola, mi nombre es ${nombre1} y tengo ${edad1} años!`; // ¡Hola, mi nombre es Juan y tengo 36 años!
+console.log(mensaje);
+
+/*
+    Destructuración -> Sirve para los objetos literales y para los arreglos.
+    Es una técnica que nos permite "desmenuzar" un objeto literal/arreglo en más variables.
+*/
+
+/*
+    Objecto literal: Un tipo de dato de JS que nos permite guardar más de un valor en una variable y acceder a esos valores a través de una llave.
+*/
+
+const mascota = {
+    nombre: "Bowie",
+    edad: 7,
+    estaEsterilizado: true
+}
+
+const nombreMascota = "Bowie";
+const edadMascota = 7;
+const estaEsterilizadoMacota = true;
+
+console.log(mascota.nombre); // Acceder a un valor.
+console.log(mascota.edad); // Acceder a un valor.
+console.log(mascota["nombre"]); // Acceder a un valor.
+
+mascota.edad = mascota.edad + 1; // Reasignado un valor a una llave del objeto literal.
+console.log(mascota.edad); // Acceder a un valor.
+
+/*
+    let nombre = mascota.nombre;
+    let edad = mascota.edad;
+    let estaEsterilizado = mascota.estaEsterilizado;
+*/
+let {nombre, edad, estaEsterilizado} = mascota; // Destructuración.
+console.log(nombre);
+console.log(edad);
+console.log(estaEsterilizado);
+
+// Destructuración con arreglos.
+
+
+

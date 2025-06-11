@@ -62,3 +62,72 @@ console.log(filaDeTortillas);
 filaDeTortillas.splice(2, 1, "Rosa", "Tona");
 console.log(filaDeTortillas);
 
+// Paradigma de programación -> Un conjunto de reglas, estándares, leyes, convenciones para progamar.
+/*
+    Imperativa: Nosotros le decimos a la computara QUÉ es lo que tiene que hacer y CÓMO lo debe hacer.
+    Declarativa: Nosotros le decimos a la computadora CUÁL debe ser el RESULTADO.
+*/
+
+const mascotas = [
+    {
+        nombre: "Tigrillo",
+        especie: "gato",
+        edad: 8
+    },
+    {
+        nombre: "Bowie",
+        especie: "gato",
+        edad: 2
+    },
+    {
+        nombre: "Zoro",
+        especie: "gato",
+        edad: 1
+    },
+    {
+        nombre: "Cosa",
+        especie: "perro",
+        edad: 8
+    },
+    {
+        nombre: "Pistache",
+        especie: "conejo",
+        edad: 5
+    }    
+]
+
+// Transformar los perros a gatos y los gatos a perros.
+const mascotasTransformadas = mascotas.map((elemento) => {
+    if(elemento.especie == "perro"){
+        return {
+            nombre: elemento.nombre,
+            edad: elemento.edad,
+            especie: "gato"
+        };
+    }else if(elemento.especie == "gato"){
+        return {
+            nombre: elemento.nombre,
+            edad: elemento.edad,
+            especie: "perro"
+        };
+    }else{
+        return elemento;
+    }
+});
+
+console.log("Mascotas originales: ");
+console.log(mascotas);
+
+
+console.log("Mascotas transformadas: ");
+console.log(mascotasTransformadas);
+
+let promedioEdadesMascotas = 0;
+mascotasTransformadas.forEach((elemento) => {
+    console.log(`${elemento.nombre} tiene ${elemento.edad} años.`);
+    promedioEdadesMascotas += elemento.edad;
+});
+
+console.log(`El promedio de edades de las mascotas es: ${promedioEdadesMascotas / mascotasTransformadas.length}`);
+
+// Depuración (Debuging): Ejecutar nuestro código línea por línea.

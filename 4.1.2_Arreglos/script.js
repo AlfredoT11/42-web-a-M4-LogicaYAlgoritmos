@@ -131,3 +131,38 @@ mascotasTransformadas.forEach((elemento) => {
 console.log(`El promedio de edades de las mascotas es: ${promedioEdadesMascotas / mascotasTransformadas.length}`);
 
 // Depuración (Debuging): Ejecutar nuestro código línea por línea.
+
+let nombreCompletoArreglo = ["María", "José", "De", "la", "Cruz", "Hernández"];
+// Convertir el arreglo a una cadena que sea el nombre completo de la persona.
+
+let nombreCompletoCadena = nombreCompletoArreglo.reduce((nombreCompleto, elemento) => {
+    nombreCompleto = nombreCompleto + elemento + " ";
+    return nombreCompleto;
+}, "");
+console.log(nombreCompletoCadena);
+
+/*
+    0 = a
+    1 = b
+    2 = c
+    3 = d
+
+    0 = a
+    103 = bad
+    12 =  bc
+*/
+let numeros = [12, 25, 5, 41, 103, 7, 58, 0];
+console.log("Arreglo original: ");
+console.log(numeros);
+
+numeros.sort();
+
+console.log("Arreglo ordenado: ");
+console.log(numeros);
+
+numeros.sort((a, b) => {
+  return a - b;
+});
+
+console.log("Arreglo ordenado: ");
+console.log(numeros);

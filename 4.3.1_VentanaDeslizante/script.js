@@ -47,3 +47,14 @@ let copiaEdades = [...edades, ...edades2];
 
 console.log(copiaEdades);
 */
+
+//          3
+let a = "clavo";
+let b = "clabo";
+
+
+if(a.charAt(3) == b.charAt(3)){
+    console.log('Los caracteres son iguales.');
+}else{
+    console.log(`Los caracteres son diferentes`);
+}

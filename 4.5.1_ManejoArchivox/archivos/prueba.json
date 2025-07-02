@@ -1,0 +1,11 @@
+{
+    "nombre": "Juan",
+    "primerApellido": "Pérez",
+    "edad": 25,
+    "esMayorDeEdad": true,
+    "mascota": {
+        "nombre": "Chilaquil",
+        "raza": "perro"
+    },
+    "estaturaPeso": [180, 90]
+}

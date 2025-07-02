@@ -1,0 +1,24 @@
+[2025-07-02T02:44:54.837Z] El usuario Fulanito inició sesión
+[1/7/2025] El usuario Fulanito inició sesión
+[]
+[8:46:41 p.m.] El usuario Fulanito inició sesión
+[function toLocaleDateString() { [native code] } 8:47:17 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:27 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:41 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:42 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:42 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:42 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:43 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:43 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:43 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:44 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:44 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:44 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:55 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:56 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:56 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:57 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:47:57 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:48:00 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:50:07 p.m.] El usuario Fulanito inició sesión
+[1/7/2025 8:50:26 p.m.] El usuario Fulanito inició sesión
